@@ -1,5 +1,9 @@
 #!/bin/bash
-#
+#tomcat- script
+# Copyright 2017 Omar Eisa
+# To get the newest version of the script or to contribute, visit:
+# 
+# Licensed under MIT (see LICENSE file distributed with this package) 
 # tomcat
 #
 # chkconfig: - 80 20
