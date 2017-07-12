@@ -3,7 +3,7 @@ This repo to show how to start up tomcat as service under linux distro
 
 tomcat-script Redhat Distrubtion
 
-#Setup 
+# Setup 
 if you havn't tomcat user 
 sudo groupadd tomcat
 sudo useradd -s /sbin/nologin -g tomcat -d /path/to/tomcat-server
@@ -14,13 +14,13 @@ sudo chmod +x /etc/init.d/tomcat
 sudo chkconfig tomcat on
 
 
-NOTE
+# NOTE
 
 Before running the script make sure it has permissions to execute and you run it with root permissions.
 
 Set execution permissions with chmod +x tomcat.sh and execute it with root permissions with sudo .
 
-#Example usage and output
+# Example usage and output
 
 For starting service
 sudo service tomcat start
@@ -31,7 +31,7 @@ sudo service tomcat stop
 For restart service
 sudo service tomcat restart
 
-License
+# License
 
 The MIT License (MIT)
 
